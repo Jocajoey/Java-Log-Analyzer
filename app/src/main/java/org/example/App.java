@@ -9,6 +9,6 @@ public class App {
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        System.out.println(LogParser.parseLine("Jun  1 12:34:56 server sshd[12345]: Failed password for invalid user testuser from 192.168.1.100"));
     }
 }
